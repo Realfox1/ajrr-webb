@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأذكار</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>الأذكار</h1>
+        <div class="categories">
+            <button onclick="showCategory('أذكار الصباح')">أذكار الصباح</button>
+            <button onclick="showCategory('أذكار المساء')">أذكار المساء</button>
+            <!-- أضف المزيد من الأزرار هنا حسب الفئات المتاحة -->
+        </div>
+    </header>
+    <main>
+        <h2 id="duaa-title">أذكار الصباح</h2>
+        <div id="duaa-container">
+            <p id="duaa-text">أَصْـبَحْنا وَأَصْـبَحَ المُـلْكُ لله...</p>
+            <div class="controls">
+                <button onclick="prevDuaa()">السابق</button>
+                <button onclick="markRead()">قرأت</button>
+                <button onclick="nextDuaa()">التالي</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js" type="module"></script>
+</body>
+</html>
+
+

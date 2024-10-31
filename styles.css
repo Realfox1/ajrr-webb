@@ -1,0 +1,42 @@
+body {
+  background-color: #2e3a46;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  direction: rtl;
+}
+
+header {
+  background-color: #3b6978;
+  padding: 1rem;
+}
+
+.categories button {
+  background-color: #1c2b36;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#duaa-container {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: #1c2b36;
+  border-radius: 10px;
+  width: 80%;
+  margin: 2rem auto;
+}
+
+.controls button {
+  background-color: #1c4966;
+  color: white;
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
